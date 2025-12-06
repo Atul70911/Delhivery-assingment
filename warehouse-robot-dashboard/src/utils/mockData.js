@@ -1,3 +1,20 @@
+// Warehouse zones for dropdowns
+export const warehouseZones = [
+  'Zone A-1', 'Zone A-2', 'Zone A-3', 'Zone A-4', 'Zone A-5',
+  'Zone B-1', 'Zone B-2', 'Zone B-3', 'Zone B-4', 'Zone B-5',
+  'Zone C-1', 'Zone C-2', 'Zone C-3', 'Zone C-4', 'Zone C-5',
+  'Zone D-1', 'Zone D-2', 'Zone D-3', 'Zone D-4', 'Zone D-5',
+  'Zone E-1', 'Zone E-2', 'Zone E-3', 'Zone E-4', 'Zone E-5',
+]
+
+// Task priorities
+export const taskPriorities = [
+  { value: 'low', label: 'Low', color: 'bg-gray-500' },
+  { value: 'medium', label: 'Medium', color: 'bg-blue-500' },
+  { value: 'high', label: 'High', color: 'bg-orange-500' },
+  { value: 'urgent', label: 'Urgent', color: 'bg-red-500' }
+]
+
 // Generate mock robot data
 export const generateMockBots = (count = 10) => {
   const statuses = ['idle', 'busy', 'charging', 'error']
