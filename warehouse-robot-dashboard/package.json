@@ -3,7 +3,6 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://atul70911.github.io/Delhivery-assingment",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
