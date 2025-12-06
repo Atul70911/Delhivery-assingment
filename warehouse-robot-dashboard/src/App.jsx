@@ -15,7 +15,7 @@ function App() {
   const isAuthenticated = useStore((state) => state.isAuthenticated)
 
   return (
-    <Router basename="/Delhivery-assingment">  {/* ← ADD THIS */}
+    <Router basename="/Delhivery-assingment">  
       <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100">
         {isAuthenticated && <Navbar />}
         <Routes>
